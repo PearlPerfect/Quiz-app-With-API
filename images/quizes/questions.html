@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="questions.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="trivia_block">
+        <div>
+            <h2 id="categories"></h2>
+        </div>
+        <div id="questions"></div>
+        <div class="options">
+            <button type="button" class="optionsBtn"></button>
+            <button type="button" class="optionsBtn"></button>
+            <button type="button" class="optionsBtn"></button>
+            <button type="button" class="optionsBtn"></button>
+        </div>
+        <button type="button" id="nextBtn">Next</button>
+        <div class="pop" id="score">
+            <div class="popup">
+                <p id="scorePop"></p>
+                <img src="close icon.png" alt="close Icon" onclick="closePopUp()">
+            </div>
+            <button type="button" id="restart" onclick="retakeQuiz()"> Restart</button>
+           
+
+        </div>
+    </div>
+
+    
+
+    <script src="./questions.js"></script>
+</body>
+
+</html>

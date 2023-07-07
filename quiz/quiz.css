@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../images/bg3.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+#trivialApp{
+            background: hsl(207, 61%, 30%);
+            width: 90%;
+            max-width: 400px;
+            margin: 0 auto 20px;
+            padding: 20px;
+            border-radius: 10px;
+}
+
+#nextBtn{
+    background:hsl(187, 100%, 40%);
+    color: hsl(230, 8%, 15%);
+    width: 50%;
+    height: 40px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    outline: 0;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    
+}
+#restart{
+    background:hsl(197, 88%, 36%);
+    color: hsl(207, 83%, 75%);
+    width: 50%;
+    height: 40px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    outline: 0;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    visibility: hidden;
+    margin-top: 40% ;
+}
+#nextBtn:hover,
+#restart:hover{
+    color:hsl(187, 100%, 40%);
+    background: hsl(230, 8%, 15%);
+}
+
+#questions{
+    color: hsl(190, 76%, 87%);
+    font-size: 25px;
+    margin:20px auto 20px;
+}
+
+#categories{
+    color: hsl(190, 76%, 87%) ;
+    border-bottom: 1px solid hsl(199, 99%, 55%);;
+    padding-bottom: 20px ;
+    text-transform: uppercase;
+    font-style: oblique;
+}
+
+.optionBtns{
+    width: 100%;
+    height: 50px;
+    margin-bottom:20px ;
+    background: hsla(203, 92%, 19%, 0.699);
+    outline: 0;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: hsl(190, 76%, 87%);
+    cursor: pointer;
+}
+
+.optionBtns:hover{
+    background: hsl(208, 100%, 51%);
+}
+
+.popup{
+    display:flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.popup i{
+   font-size: 45px;
+    color: hsl(207, 83%, 75%);
+}
+
+.pop{
+    width: 500px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%)scale(0.1);
+    text-align: center;
+    padding: 10px 25px 35px;
+    background:hsl(207, 61%, 30%);
+    background-position: center;
+    background-size: cover;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 400px;
+    height: 100vh;
+    /* display: flex; */
+}
+.open_popUp{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%)scale(1);
+}
+
+#score{
+    color:hsl(207, 83%, 75%); ;
+}
+
+
+@media screen and (max-width: 450px) {
+    .optionBtns{
+        overflow: hidden;
+        height: 65px;
+    }    
+
+}
