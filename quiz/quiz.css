@@ -35,7 +35,7 @@ body{
 }
 #restart{
     background:hsl(197, 88%, 36%);
-    color: hsl(207, 83%, 75%);
+    color: hsl(210, 93%, 95%);
     width: 50%;
     height: 40px;
     padding: 10px;
@@ -46,7 +46,7 @@ body{
     border-radius: 30px;
     cursor: pointer;
     visibility: hidden;
-    margin-top: 40% ;
+    margin-top: 20px ;
 }
 #nextBtn:hover,
 #restart:hover{
@@ -89,13 +89,18 @@ body{
     display:flex;
     justify-content: space-between;
     position: relative;
+    padding-top:180px;
 }
 
 .popup i{
    font-size: 45px;
-    color: hsl(207, 83%, 75%);
+    color: hsl(230, 8%, 15%);
+    cursor: pointer;
 }
 
+.popup i:hover{
+    color: hsl(208, 100%, 51%);
+}
 .pop{
     width: 500px;
     position: absolute;
@@ -122,7 +127,7 @@ body{
 }
 
 #score{
-    color:hsl(207, 83%, 75%); ;
+    color:hsl(210, 93%, 95%);
 }
 
 
