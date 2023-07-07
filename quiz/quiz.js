@@ -64,7 +64,7 @@ function calculateScore(selectedOption, data) {
 }
 
 function closePopUp(){
-    window.location.reload()
+  window.location = href="../index.html"
 }
 
 function restart(){
